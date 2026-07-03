@@ -1,5 +1,5 @@
 import { Bot } from "grammy";
-import { logger } from "../lib/logger";
+import { logger } from "./lib/logger";
 
 export async function setupBot(bot: Bot) {
   try {
