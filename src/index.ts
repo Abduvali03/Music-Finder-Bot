@@ -1,6 +1,6 @@
 import { Bot } from "grammy";
 import yts from "yt-search";
-import { logger } from "../lib/logger";
+import { logger } from "./lib/logger";
 import { getMediaInfo, downloadMedia, cleanupTmp, isValidUrl, detectPlatform, formatDuration, DownloadError } from "./downloader";
 import { mainMenuKeyboard, downloadTypeKeyboard, searchResultKeyboard, backKeyboard, langKeyboard } from "./menus";
 import { saveUrl, getUrl, getEntry } from "./urlstore";
